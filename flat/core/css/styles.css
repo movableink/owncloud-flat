@@ -1,0 +1,118 @@
+#controls, #navigation, #header { 
+  box-shadow: none !important; 
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important; 
+  background-image: none !important; 
+}
+
+#apps li a { display: block; }
+
+#navigation li:first-child a { padding-top: 8px; }
+
+#header { 
+  background: #000 !important; 
+}
+
+button, .button, input[type="submit"], input[type="submit"].primary { 
+  color: #FFF;
+  box-shadow: none; 
+  -webkit-box-shadow: none; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px; 
+  padding-top: 0.3em; 
+  padding-bottom: 0.5em; 
+  background-color: #1ab188; 
+  text-shadow: none; border: 0;
+}
+
+button {
+  padding: 0.3em 1em 0.5em 1em !important;
+}
+
+button:hover, .button:hover, button:focus, .button:focus, button:active, .button:active, input[type="submit"]:hover, input[type="submit"].primary:hover, input[type="submit"].primary:active {
+  background-color: #20d8a6 !important;
+  color: #FFF !important;
+  outline: none !important;
+  text-shadow: none;
+  box-shadow: none !important;
+  border: 0;
+}
+
+div.multiselect.active {
+  background-color: #20d8a6 !important;
+  color: #FFF !important;
+}
+
+ul.multiselectoptions {
+  border-radius: 0;
+  margin-left: 1px;
+}
+
+ul.multiselectoptions li {
+  padding: 2px 5px;
+}
+
+.button a { 
+  color: #FFF; 
+  padding: 0 15px; 
+}
+
+#navigation a span {
+  font-size: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#searchbox {
+  border: 0;
+  outline: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#dropdown {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  box-shadow: 0 2px 0px 0px #BBB;
+  -webkit-box-shadow: 0 2px 0px 0px #BBB;
+  -moz-box-shadow: 0 2px 0px 0px #BBB;
+}
+
+input[type="text"], input[type="password"], input[type="search"], input[type="number"], input[type="email"], textarea, #quota, div.jp-progress, .pager li a {
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+}
+
+.popup {
+  border-radius: 0;
+}
+
+#expanddiv { 
+  border-radius: 0;
+}
+
+#body-login {
+  background-color: #000;
+  background: url(../img/bg@2X.png) top left;
+  background-size: 9px 9px;
+}
+
+#body-login #login, #body-login footer, #body-login p.info, #body-login #header {
+  background-color: inherit !important;
+  border: 0;
+  color: #FFF;
+  text-shadow: none;
+}
+
+#login form input[type="checkbox"]+label {
+  text-shadow: none !important;
+  color: #FFF !important;
+}
+
+

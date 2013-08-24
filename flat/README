@@ -1,0 +1,8 @@
+Flat Theme by Michael Nutt
+
+Icons by Pixeden: http://www.pixeden.com
+
+INSTALLATION
+Put the following key into your config/config.php:
+
+"theme" => "flat",
